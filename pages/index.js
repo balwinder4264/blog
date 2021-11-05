@@ -1,43 +1,35 @@
-import { Fragment } from "react";
-import Hero from "../components/home-page/hero"
-import FeaturedPost from "../components/home-page/featured-posts";
-const DUMMY_POSTS=[
-    {
-        slug :"Getting-started-with-next-js",
-        title:"Getting Started with Next Js",
-        image:"getting-started-nextjs.png",
-        excerpt:"NextJs is the react framework for production - it makes building fullstack React apps and sites a breeze and shops with built in SSR",
-        date:"2021-07-10"
-    },
-    {
-        slug :"Getting-started-with-next-js2",
-        title:"Getting Started with Next Js",
-        image:"getting-started-nextjs.png",
-        excerpt:"NextJs is the react framework for production - it makes building fullstack React apps and sites a breeze and shops with built in SSR",
-        date:"2021-07-10"
-    },
-    {
-        slug :"Getting-started-with-next-js3",
-        title:"Getting Started with Next Js",
-        image:"getting-started-nextjs.png",
-        excerpt:"NextJs is the react framework for production - it makes building fullstack React apps and sites a breeze and shops with built in SSR",
-        date:"2021-07-10"
-    },
-    {
-        slug :"Getting-started-with-next-js4",
-        title:"Getting Started with Next Js",
-        image:"getting-started-nextjs.png",
-        excerpt:"NextJs is the react framework for production - it makes building fullstack React apps and sites a breeze and shops with built in SSR",
-        date:"2021-07-10"
-    }
-]
-function HomePage(){
-  return <Fragment>
-      <Hero/>
-      <FeaturedPost posts={DUMMY_POSTS}/>
-  </Fragment>
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import ContainerBlock from "../components/ContainerBlock";
+import FavouriteProjects from "../components/FavouriteProjects";
+import LatestCode from "../components/LatestCode";
+import Hero from "../components/Hero";
+import getLatestRepos from "@lib/getLatestRepos";
+import userData from "@constants/data";
+
+export default function Home({ repositories }) {
+  return (
+    <ContainerBlock
+      title="Balwinder Singh - Developer, Writer, Creator"
+      description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
+    >
+      <Hero />
+      {/* <FavouriteProjects /> */}
+      <LatestCode repositories={repositories} />
+    </ContainerBlock>
+  );
 }
 
-export default HomePage;
+// export const getServerSideProps = async () => {
+//   console.log(process.env.GITHUB_AUTH_TOKEN);
+//   let token = process.env.GITHUB_AUTH_TOKEN;
 
-//1) Hero =>Present hero
+//   const repositories = await getLatestRepos(userData, token);
+//   // console.log("REPOSITORIES", repositories);
+
+//   return {
+//     props: {
+//       repositories,
+//     },
+//   };
+// };

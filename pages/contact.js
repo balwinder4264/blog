@@ -1,5 +1,11 @@
-function ContactPage(){
-    return <div>ContactPage posts</div>
-}
+import React from "react";
+import ContainerBlock from "../components/ContainerBlock";
+import Contact from "../components/Contact";
 
-export default ContactPage
+export default function contact() {
+  return (
+    <ContainerBlock>
+      <Contact />
+    </ContainerBlock>
+  );
+}
