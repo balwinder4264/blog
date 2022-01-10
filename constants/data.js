@@ -33,13 +33,13 @@ const userData = {
       description: "MultiLevel Markting System, Laravel, nodejs, next js,Payment Gateways (nuvei,psigate),Language translation System "
     },
     {
-      title: "Android Appliocation",
+      title: "Android Application",
       link: "https://play.google.com/store/apps/details?id=com.opulence",
       imgUrl: "https://media.istockphoto.com/photos/multi-level-marketing-picture-id469952385?s=2048x2048",
       description: "MultiLevel Markting System,React native,Push Notification, tailwind, Native base laravel,Firebase,Next Js, Server Side Rendring,Crud oprations"
     },
     {
-      title: "Ios Appliocation",
+      title: "Ios Application",
       link: "https://apps.apple.com/us/app/opulenceglobal/id1512204765?ls=1",
       imgUrl: "https://media.istockphoto.com/photos/business-man-using-tablet-on-people-network-and-digital-finance-with-picture-id1311932580?s=2048x2048",
       description: "Ios Application,MultiLevel Markting System,React native,Push Notification, tailwind, Native base laravel,Firebase,Next Js, Server Side Rendring,Crud oprations"
