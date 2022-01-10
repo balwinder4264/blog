@@ -9,45 +9,42 @@ const userData = {
   address: "Toronto, Ontario, Canada.",
   projects: [
     {
-      title: "MicroService",
-      link: "https://github.com/balwinder4264/microservices",
-      imgUrl: "/github.png",
+      title: "Authentication and Crud Oprations",
+      link: "https://next-firebase-auth-todo.vercel.app/",
+      imgUrl: "https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?s=2048x2048",
+      description: "Google Auth,Firebase,Next Js, Server Side Rendring,Crud oprations"
     },
     {
-      title: "TypeScript Basics",
-      link: "https://github.com/balwinder4264/typeScript-features",
-      imgUrl: "/github.png",
+      title: "Tailwind Desing",
+      link: "https://elevate-group.vercel.app/",
+      imgUrl: "https://media.istockphoto.com/photos/more-than-a-club-its-a-community-picture-id1205880190?s=2048x2048",
+      description: "Next js, tailwind, Women Empowerment"
     },
     {
-      title: "Nest JS Folder Structure",
-      link: "https://github.com/balwinder4264/carPrice",
-      imgUrl: "/github.png",
+      title: "E-commerce",
+      link: "https://e-comerce-realm.vercel.app/",
+      imgUrl: "https://media.istockphoto.com/photos/fashion-web-store-template-mock-up-set-isolated-picture-id996495542?s=2048x2048",
+      description: "MongoDb Realm, Search, Real Time database, Node js, Next js,tailwind"
     },
     {
-      title: "Next Js Authentication",
-      link: "https://github.com/balwinder4264/Authentication",
-      imgUrl: "/github.png",
+      title: "MLM",
+      link: "https://myopulence.com/default/",
+      imgUrl: "https://media.istockphoto.com/photos/network-marketing-mlm-picture-id920928634?s=2048x2048",
+      description: "MultiLevel Markting System, Laravel, nodejs, next js,Payment Gateways (nuvei,psigate),Language translation System "
     },
     {
-      title: "Node Js",
-      link: "https://github.com/balwinder4264/commerce",
-      imgUrl: "/github.jpg",
+      title: "Android Appliocation",
+      link: "https://play.google.com/store/apps/details?id=com.opulence",
+      imgUrl: "https://media.istockphoto.com/photos/multi-level-marketing-picture-id469952385?s=2048x2048",
+      description: "MultiLevel Markting System,React native,Push Notification, tailwind, Native base laravel,Firebase,Next Js, Server Side Rendring,Crud oprations"
     },
     {
-      title: "React Native",
-      link: "https://github.com/balwinder4264",
-      imgUrl: "/github.png",
+      title: "Ios Appliocation",
+      link: "https://apps.apple.com/us/app/opulenceglobal/id1512204765?ls=1",
+      imgUrl: "https://media.istockphoto.com/photos/business-man-using-tablet-on-people-network-and-digital-finance-with-picture-id1311932580?s=2048x2048",
+      description: "Ios Application,MultiLevel Markting System,React native,Push Notification, tailwind, Native base laravel,Firebase,Next Js, Server Side Rendring,Crud oprations"
     },
-    {
-      title: "Laravel Contact Form",
-      link: "https://github.com/balwinder4264/contactFormLaravel",
-      imgUrl: "/github.png",
-    },
-    {
-      title: "GraphQl Implementation",
-      link: "https://github.com/balwinder4264/foodRecipeNodeJS",
-      imgUrl: "/github.png",
-    },
+
   ],
   about: {
     title:
@@ -82,7 +79,7 @@ const userData = {
       companyLink: "https://decimaltech.com/",
       desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
     },
-  
+
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1dBMh9xvSpKY3atuHcVlXJqKWFWKw1cbP/view?usp=sharing",
