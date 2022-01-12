@@ -9,6 +9,12 @@ const userData = {
   address: "Toronto, Ontario, Canada.",
   projects: [
     {
+      title: "Chat",
+      link: "https://chat-fire-next-js.vercel.app/",
+      imgUrl: "https://media.istockphoto.com/photos/chat-discussion-icons-simple-3d-render-illustration-isolated-on-blue-picture-id1318720514?s=2048x2048",
+      description: "Live chat,Google Auth, Next JS,React, tailwind,Firebase, Server Side Rendring,Crud oprations"
+    },
+    {
       title: "Authentication and Crud Oprations",
       link: "https://next-firebase-auth-todo.vercel.app/",
       imgUrl: "https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?s=2048x2048",
@@ -45,6 +51,7 @@ const userData = {
       description: "Ios Application,MultiLevel Markting System,React native,Push Notification, tailwind, Native base laravel,Firebase,Next Js, Server Side Rendring,Crud oprations"
     },
 
+    // https://chat-fire-next-js.vercel.app/
   ],
   about: {
     title:
