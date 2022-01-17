@@ -15,6 +15,12 @@ const userData = {
       description: "Live chat,Google Auth, Next JS,React, tailwind,Firebase, Server Side Rendring,Crud oprations"
     },
     {
+      title: "Blogs",
+      link: "https://sharethoughts-5n6qb9789-balwinder4264.vercel.app/",
+      imgUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      description: "Share blogs,Google Auth, Next JS,React, tailwind,Firebase, Server Side Rendring,Crud oprations"
+    },
+    {
       title: "Authentication and Crud Oprations",
       link: "https://next-firebase-auth-todo.vercel.app/",
       imgUrl: "https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?s=2048x2048",
