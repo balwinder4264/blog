@@ -76,7 +76,7 @@ const userData = {
       company: "Opulence Global",
       year: "2021",
       companyLink: "https://myopulence.com/default/",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      desc: "MlM System design,React Native, NextJS,Tailwind, Laravel,Firebase",
     },
     {
       title: "Full Stack developer ",
@@ -90,7 +90,7 @@ const userData = {
       company: "Decimal Technologies",
       year: "2021",
       companyLink: "https://decimaltech.com/",
-      desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
+      desc: "Sql database, Datbase Administrator, Html, Bottstrap",
     },
 
   ],
